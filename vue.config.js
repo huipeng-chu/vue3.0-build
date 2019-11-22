@@ -3,7 +3,7 @@ const path = require('path')
 const resolve = dir => {
   return path.join(__dirname, dir)
 }
-const BASE_URL = process.env.NODE_ENV === 'procution'? '/iview-admin/': '/'
+const BASE_URL = process.env.NODE_ENV === 'procution' ? '/iview-admin/' : '/'
 module.exports = {
   lintOnSave: false,
   baseUrl: BASE_URL,
